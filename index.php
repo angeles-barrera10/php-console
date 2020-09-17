@@ -20,10 +20,16 @@
 
 <div class "container">
     <div class="row">
-        <div class="p-3 m-2 bg-primary text-white">HolAAA</div>
+        <div class="p-3 m-2 bg-primary text-white">
 
       <?php 
-     echo "Hola"; //Esto es un saludo 
+            $name = "Max"; 
+            $isOLD = true; 
+            $year = 1990; 
+            $km  = 54.4; 
+
+            echo "hola ".  $name . " naciste en el " .  $year . " y estas a " . $km . " kilometros ." . "<Br>"; 
+            echo "la variable name es de tipo: " . gettype($name);
 
       ?>
 
