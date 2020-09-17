@@ -18,10 +18,28 @@
   </div>
 </div>
 
+<div class "container"> 
 <div class "container">
-    <div class="row">
-        <div class="p-3 m-2 bg-primary text-white">
+    <div class="row"> 
+    <div class="col-12">
+        <div class="p-3 m-2 bg-info text-white">
+          <h3> clase:  operadores </h3> 
+      <?php 
+           $num1 = 1; 
+           $num2 = 2; 
+           $Resultado = $num1 + $num2; 
+           echo "El resultado es: " . $Resultado; 
 
+      ?>
+
+
+    </div>
+</div>
+</div>
+    <div class="row"> 
+    <div class="col-12">
+        <div class="p-3 m-2 bg-primary text-white">
+          <h3> clase:  variables y tipos de datos </h3> 
       <?php 
             $name = "Max"; 
             $isOLD = true; 
@@ -36,6 +54,22 @@
 
     </div>
 </div>
+</div> 
+<div class "container">
+    <div class="row"> 
+    <div class="col-12">
+        <div class="p-3 m-2 bg-info text-white">
+          <h3> clase:  operadores </h3> 
+      <?php 
+           
+
+      ?>
+
+
+    </div>
+</div>
+</div>
+
 
 
 
