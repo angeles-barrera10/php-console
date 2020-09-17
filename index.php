@@ -18,7 +18,27 @@
   </div>
 </div>
 
-<div class "container"> 
+               <div class "container"> 
+                 <class class="row">
+                  <div class="col-12">
+                   <div class="p-3 m-2 bg-info text-white">
+                     <h3> clase: Condicional SWITCH </h3>
+                       <?php
+                         $num = 10; 
+                        if ($num == 1) {
+                        echo "la calificacion es muy baja";}
+                        elseif ($num == 2) {
+                            echo "la calificacion sigue siendo siendo muy baja";}
+                        else {
+                            echo "la calificacion no es valida";
+                        }
+                        
+    
+                         ?>
+                   </div>
+               </div>
+           </div>
+
  <class class="row"> 
  <div class="col-12">
  <div class="p-3 m-2 bg-primary text-white">
