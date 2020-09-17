@@ -19,7 +19,35 @@
 </div>
 
                <div class "container"> 
-                 <class class="row">
+<div class="row">
+<div class="col-12">
+<div class="p-3 m-2 bg-success text-white">
+<h3> clase: bucle while </h3> <br>
+<?php
+       $num = 0; 
+         while($num < 5) {
+          $num ++; 
+    echo "el numero es: " . $num ; 
+}
+
+
+?>
+</div>
+</div>
+
+
+<div class="row">
+<div class="col-12">
+<div class="p-3 m-2 bg-warning text-white">
+<h3> clase: bucle for </h3>  <br>
+
+
+
+</div>
+</div>
+</div>
+
+    <div class class="row">
                   <div class="col-12">
                    <div class="p-3 m-2 bg-info text-white">
                      <h3> clase: Condicional SWITCH </h3>
@@ -39,18 +67,18 @@
                </div>
            </div>
 
- <class class="row"> 
- <div class="col-12">
- <div class="p-3 m-2 bg-primary text-white">
- <h3> clase: Condicional If </h3> 
- <?php 
-    $name = "Maxi";  
-      if ($name =="Max") {
-          echo "Sos el indicado";
-      }
-      else {
-          echo "no sos el indicado";
-      }
+               <div class class="row"> 
+                 <div class="col-12">
+                    <div class="p-3 m-2 bg-primary text-white">
+                       <h3> clase: Condicional If </h3> 
+                          <?php 
+                       $name = "Maxi";  
+                     if ($name =="Max") {
+                   echo "Sos el indicado";
+                     }
+                  else {
+               echo "no sos el indicado";
+          }
  ?>
  </div>
  </div>
