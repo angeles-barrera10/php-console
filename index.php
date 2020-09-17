@@ -21,8 +21,9 @@
 <div class "container">
     <div class="row">
         <div class="p-3 m-2 bg-primary text-white">HolAAA</div>
+
       <?php 
-     echo "Hola";
+     echo "Hola"; //Esto es un saludo 
 
       ?>
 
