@@ -19,7 +19,25 @@
 </div>
 
 <div class "container"> 
-<div class "container">
+ <class class="row"> 
+ <div class="col-12">
+ <div class="p-3 m-2 bg-primary text-white">
+ <h3> clase: Condicional If </h3> 
+ <?php 
+    $name = "Maxi";  
+      if ($name =="Max") {
+          echo "Sos el indicado";
+      }
+      else {
+          echo "no sos el indicado";
+      }
+ ?>
+ </div>
+ </div>
+ </div>
+
+
+ </class>
     <div class="row"> 
     <div class="col-12">
         <div class="p-3 m-2 bg-info text-white">
