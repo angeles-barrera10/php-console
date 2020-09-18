@@ -18,18 +18,14 @@
   </div>
 </div>
 
-               <div class "container"> 
+<div class "container"> 
 <div class="row">
 <div class="col-12">
-<div class="p-3 m-2 bg-success text-white">
-<h3> clase: bucle while </h3> <br>
+<div class="p-3 m-2 bg-primary  text-white">
+<h3> clase:Arrays  </h3> <br>
 <?php
-       $num = 0; 
-         while($num < 5) {
-          $num ++; 
-    echo "el numero es: " . $num ; 
-}
-
+    $num = array(1,4,6,7);  
+    echo $num {1}; 
 
 ?>
 </div>
