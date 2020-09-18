@@ -20,9 +20,27 @@
 
 <div class "container"> 
 <div class="row">
-<div class="col-12">
+<div class="col-6">
 <div class="p-3 m-2 bg-primary  text-white">
-<h3> clase:Arrays  </h3> <br>
+<h3> clase:Break  </h3> <br>
+<?php
+    $names  = array("Max", "pepe", "luis", "Tom");
+    foreach ($names as $name)
+     if ($name == "Tom"){
+     break;
+    }
+     {
+        echo $name . "<br>";
+    }
+
+?>
+</div>
+</div>
+
+<div class="row">
+<div class="col-6">
+<div class="p-3 m-2 bg-primary  text-white">
+<h3> clase:Continue </h3> <br>
 <?php
     $names  = array("Max", "pepe", "luis");
 
