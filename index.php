@@ -24,13 +24,16 @@
 <div class="p-3 m-2 bg-primary  text-white">
 <h3> clase:Arrays  </h3> <br>
 <?php
-    $num = array(1,4,6,7);  
-    echo $num {1}; 
+    $names  = array("Max", "pepe", "luis");
+
+    foreach ($names as $name) {
+        echo $name . "<br>";
+    }
 
 ?>
 </div>
 </div>
-
+</div>
 
 <div class="row">
 <div class="col-12">
