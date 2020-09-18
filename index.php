@@ -19,6 +19,32 @@
 </div>
 
 <div class "container"> 
+<div class="classrow">
+<div class="col-12">
+<div class="p-3 m-2 bg-primary  text-white">
+<h3> clase:Funciones  </h3> <br>
+<?php
+function calc($sign, $num1, $num2){
+  switch ($sign) {
+      case "+";
+          return $num1 + $num2; 
+          break;
+      case "-"; 
+          return $num1 - $num2; 
+          break;
+          default:
+          return 0; 
+  }
+
+}
+        $result = calc("+", 3, 3); 
+        echo "el resultado es: " . $result; 
+
+?>
+</div>
+
+
+</div>
 <div class="row">
 <div class="col-6">
 <div class="p-3 m-2 bg-primary  text-white">
