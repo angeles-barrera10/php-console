@@ -19,6 +19,32 @@
 </div>
 
      <div class "container"> 
+          <div class="row">
+             <div class="col-12">
+                 <div class="p-3 m-2 bg-success text-white">
+                     <h3> clase:Valores estaticos</h3> <br>
+                          <?php
+                            class Calculadora {
+                                public function sumar($num1, $num2){
+                                  return $num1 + $num2; 
+                                 }
+                                 public function restar($num1, $num2){
+                                    return $num1 - $num2;
+                                }
+                            }
+                                 $calc = new  Calculadora();
+                                 echo "El resultado de la suma es " . $calc->sumar(1,1)  . "<br>";
+                                 echo "El resultado de la resta es " . $calc->restar(5,1)  . "<br>";
+                            
+
+                            
+                            ?>
+                        </div>
+                    </div>
+                </div>
+
+
+
          <div class="row">
              <div class="col-12">
                  <div class="p-3 m-2 bg-info text-white">
@@ -40,9 +66,6 @@
                          }
                             $tommy = new Perro("tommy", 4); 
                             echo $tommy->eat();
-
-
-
                       ?>
                  </div>
              </div>
