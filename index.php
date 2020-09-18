@@ -18,7 +18,22 @@
   </div>
 </div>
 
-<div class "container"> 
+     <div class "container"> 
+         <div class="classrow">
+             <div class="col-12">
+                 <div class="p-3 m-2 bg-success text-white">
+                     <h3> clase:POO</h3> <br>
+                         <?php
+                         class mascota {
+                          public $patas = 4; 
+                           }
+                            $perro = new mascota();
+                              echo $perro -> $patas;
+?>
+</div>
+</div>
+</div>
+
 <div class="classrow">
 <div class="col-12">
 <div class="p-3 m-2 bg-primary  text-white">
