@@ -19,7 +19,40 @@
 </div>
 
      <div class "container"> 
-         <div class="classrow">
+         <div class="row">
+             <div class="col-12">
+                 <div class="p-3 m-2 bg-info text-white">
+                     <h3> clase:Herencia</h3> <br>
+                     <?php
+                        class Mascota{
+                            public $nombre;
+                            public $patas; 
+                            function _construct($nombre, $patas){
+                            $this->$nombre = $nombre;
+                            $this->$patas = $patas;
+                            }
+                        
+                            function eat(){
+                            return "Etoy comiendo!";
+                        }
+                    }
+                            class Perro extends Mascota{
+                         }
+                            $tommy = new Perro("tommy", 4); 
+                            echo $tommy->eat();
+
+
+
+                      ?>
+                 </div>
+             </div>
+         </div>
+
+
+
+
+
+         <div class="row">
              <div class="col-12">
                  <div class="p-3 m-2 bg-success text-white">
                      <h3> clase:POO</h3> <br>
@@ -34,7 +67,7 @@
 </div>
 </div>
 
-<div class="classrow">
+<div class="row">
 <div class="col-12">
 <div class="p-3 m-2 bg-primary  text-white">
 <h3> clase:Funciones  </h3> <br>
