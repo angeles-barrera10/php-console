@@ -40,9 +40,14 @@
 <div class="col-12">
 <div class="p-3 m-2 bg-warning text-white">
 <h3> clase: bucle for </h3>  <br>
+<?php
+$num = 0; 
+for ($i=0; $i < 5; $i++) { 
+     echo " El numero es: " . $i . "<br>";
+}
 
 
-
+?>
 </div>
 </div>
 </div>
